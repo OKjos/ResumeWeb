@@ -1,0 +1,38 @@
+.body-container {
+    background-color: rgb(11, 42, 68);
+}
+
+.container {
+    text-align: center;
+}
+
+.ResumeImg {
+    margin-top: 80px;
+    width: 700px; /* Set the width to the actual image width */
+    height: 800px; /* Set the height to the actual image height */
+}
+
+.button-container {
+    margin-left: 320px;
+}
+
+.back-button {
+    color: white;
+    background-color: rgb(11, 42, 68);
+    border-radius: 12px;
+    border: 2px solid #0cff20;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 20px; /* Add margin between the buttons */
+}
+
+.download-button {
+    color: white;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+}
