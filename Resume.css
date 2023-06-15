@@ -36,3 +36,37 @@
     margin-top: 30px;
     background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
 }
+
+
+@media (max-width: 768px) {
+    /* Styles for screens up to 768px wide (e.g., tablets) */
+    .ResumeImg {
+        width: 100%; /* Set the image width to 100% of the container */
+        height: auto; /* Let the height adjust automatically */
+    }
+
+    .button-container {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .back-button,
+    .download-button {
+        margin-right: 0;
+        margin-bottom: 10px; /* Add spacing between the buttons */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Styles for screens up to 480px wide (e.g., mobile phones) */
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .back-button,
+    .download-button {
+        width: 100%;
+    }
+}
