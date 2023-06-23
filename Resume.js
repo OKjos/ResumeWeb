@@ -4,3 +4,8 @@ function handleResumeButtonClick() {
     downloadLink.download = 'CodingResume.pdf';
     downloadLink.click();
 }
+
+
+function handleBackButton() {
+    window.location.href = "https://okjos.github.io/ResumeWeb/";
+  }
