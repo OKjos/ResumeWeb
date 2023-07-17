@@ -7,5 +7,5 @@ function handleResumeButtonClick() {
 
 
 function handleBackButton() {
-    window.location.href = "https://okjos.github.io/ResumeWeb/";
+    window.location.href = "https://okjos.github.io/ResumeWebsite/";
   }
