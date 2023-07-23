@@ -60,10 +60,11 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .ResumeImg {
         width: 100%; 
-        height: auto; 
+        height: 100%; 
+    }
 
     .button-container {
         margin-left: 0;
@@ -75,19 +76,6 @@
         margin-right: 0;
         margin-bottom: 10px;
     }
-}
+    
 
-@media (max-width: 480px) {
-
-    .button-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .back-button,
-    .download-button {
-        width: 100%;
-    }
-}
 }
